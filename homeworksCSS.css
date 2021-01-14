@@ -1,0 +1,32 @@
+body { 
+    background-color: black;
+    color: rgb(0, 255, 0);
+    font-size: larger;
+    text-align: center;
+}
+
+hr {
+    border: 10px solid rgb(0, 255, 0);
+    border-radius: 5px;
+}
+
+mark {
+    background-color: red;
+}
+
+small {
+    font-size: 10px;
+}
+
+a:link, a:visited {
+    background-color: rgb(0, 255, 0);
+    color: black;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+a:hover, a:active {
+    background-color: green;
+}
