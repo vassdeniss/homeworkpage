@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html> 
+
+    <head> 
+
+        <title> Super Amazing Homework Tables Web Page </title> 
+        <link rel="shortcut icon" type="image/png" href="images/icon.png">
+
+        <style> 
+        
+        body { 
+            background-color: black;
+            color: rgb(0, 255, 0);
+            font-size: larger;
+            text-align: center;
+        }
+
+        a:link {
+        color: orange;
+        background-color: transparent;
+        text-decoration: none;
+        }
+
+        a:visited {
+        color: pink;
+        background-color: transparent;
+        text-decoration: none;
+        }
+
+        a:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: underline;
+        }
+
+        hr {
+            border: 10px solid rgb(0, 255, 0);
+            border-radius: 5px;
+        }
+
+        table, th, td {
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid rgb(0, 255, 0);
+        }
+
+        .NewTable:hover {
+            background-color: red;
+        }
+
+        .NewTable1:hover {
+            background-color: green;
+        }
+
+        </style> 
+
+    </head>
+
+    <body> 
+
+        <hr>
+
+        <h1> Using tables in HTML to display info </h1>
+        <p> In HTML you can use &#60table&#62, &#60td&#62 (Table Data), &#60tr&#62 (Table Row) and &#60th&#62 (Table Header) to make a table </p>
+        <p> Example Table: </p>
+        <table> 
+            <tr> 
+                <th> Header 1 </th>
+                <th> Header 2 </th>
+                <th> Header 3 </th>
+            </tr>
+            <tr> 
+                <td> Example 1 </td>
+                <td> Example 2 </td>
+                <td> Example 3 </td>
+            </tr>
+            <tr> 
+                <td> Example 4 </td>
+                <td> Example 5 </td>
+                <td> Example 6 </td>
+            </tr>
+        </table>
+        <p> 
+            Of course this table has been modified with CSS 
+            to actually look like a table. The table tag doesn't
+            actually make the table look like a table. 
+        </p> 
+        <p> 
+            You can also use CSS to mark an area of the table when
+            hovered with the mouse 
+        </p>
+        <p> Here try it on this table! </p>
+        <table> 
+            <tr class="NewTable"> 
+                <th> Header 1 </th>
+                <th> Header 2 </th>
+                <th> Header 3 </th>
+            </tr>
+            <tr class="NewTable"> 
+                <td class="NewTable1"> Example 1 </td>
+                <td class="NewTable1"> Example 2 </td>
+                <td class="NewTable1"> Example 3 </td>
+            </tr>
+            <tr class="NewTable"> 
+                <td class="NewTable1"> Example 4 </td>
+                <td class="NewTable1"> Example 5 </td>
+                <td class="NewTable1"> Example 6 </td>
+            </tr>
+        </table>
+        <p> See the difference?? Cool right! </p>
+        <hr>
+        <a href="https://vassdeniss.github.io/school-repo/"> Visit the school repository to download files if you are unsure on how to write all this! </a>
+        <p> Brought to you by: Dennis Vasilev </p>
+    </body>
+</html>
